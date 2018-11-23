@@ -5,6 +5,8 @@
 			<content>
 				<VBox>
 					<Label text="Welcome on the second view !"/>
+					<Label text="FirstName"/>
+					<Text text="{TempDataModel>/FirstName}"/>
 					<Button text="Navigate back to the first view" press="onBack"/>
 				</VBox>
 			</content>
