@@ -1,0 +1,13 @@
+<mvc:View controllerName="sap.ui.demo.wtnav.controller.Master" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App id="app">
+		<Page title="Master view">
+			<content>
+				<VBox>
+					<Label text="Welcome on the first view !"/>
+					<Button text="Navigate to the second view" press="onPress"/>
+				</VBox>
+			</content>
+		</Page>
+	</App>
+</mvc:View>
