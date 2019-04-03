@@ -3,7 +3,7 @@
 		<Page title="Master view">
 			<content>
 				<VBox>
-					<Label text="Welcome on the first view !"/>
+					<Label text="{i18n>wellcome}"/>
 					<Input width="60%" id="__input0"/>
 				<items>
 				    <Button xmlns="sap.m" text="Click to second view" press="onPress"/>
